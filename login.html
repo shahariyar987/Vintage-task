@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Vantage Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-illustration">
+            <svg width="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="80" fill="#2563eb" opacity="0.1" />
+                <rect x="60" y="50" width="80" height="100" fill="white" stroke="#2563eb" stroke-width="2" rx="5" />
+                <rect x="70" y="70" width="60" height="5" fill="#e5e7eb" />
+                <rect x="70" y="85" width="40" height="5" fill="#e5e7eb" />
+                <circle cx="130" cy="140" r="25" fill="#1e40af" />
+                <path d="M120 140 L128 148 L142 132" stroke="white" stroke-width="3" fill="none" />
+            </svg>
+            <h2 style="color: var(--primary-color); margin-top: 20px;">Vantage Tasks</h2>
+        </div>
+
+        <div class="auth-form-wrapper">
+            <div class="logo-section">
+                <i class="fas fa-check-double" style="color: var(--primary-color); font-size: 24px;"></i>
+                <h2>VANTAGE TASKS</h2>
+            </div>
+
+            <div class="auth-header">
+                <h1>Log in</h1>
+                <p>Sign to your account via email</p>
+            </div>
+
+            <form action="dashboard.html">
+                <div class="form-group">
+                    <input type="email" placeholder="Enter your Email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Enter your password" class="form-input" required>
+                </div>
+
+                <div class="form-options">
+                    <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#" style="color: var(--text-dark); font-weight: 500;">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-primary">Log In</button>
+            </form>
+
+            <div class="social-login">
+                <p style="font-size: 12px; color: var(--text-light); margin-bottom: 10px;">Sign in with social media</p>
+                <div class="social-buttons">
+                    <button class="btn-social">
+                        <i class="fab fa-google" style="color: #DB4437;"></i> Sign in With Google
+                    </button>
+                    <button class="btn-social">
+                        <i class="fab fa-facebook" style="color: #4267B2;"></i> Sign in With Facebook
+                    </button>
+                </div>
+                <p style="margin-top: 20px; font-size: 13px;">
+                    Not a member? <a href="register.html" style="color: var(--accent-color); font-weight: 600;">Create a new account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

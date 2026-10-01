@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Vantage Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-illustration" style="background: white;">
+             <div class="logo-section" style="flex-direction: column; align-items: center;">
+                <i class="fas fa-check-double" style="color: var(--primary-color); font-size: 60px; margin-bottom: 20px;"></i>
+                <h2 style="font-size: 32px;">VANTAGE<br>TASKS</h2>
+            </div>
+        </div>
+
+        <div class="auth-form-wrapper" style="background: #f9fafb;">
+            <div class="auth-header">
+                <h1>Register</h1>
+                <p>Create your new company account</p>
+            </div>
+
+            <form action="login.html">
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Enter your email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Company name" class="form-input">
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Phone" class="form-input">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Enter your password" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Rewrite your password" class="form-input" required>
+                </div>
+
+                <div class="form-options">
+                    <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                        <input type="checkbox" required> I agree to all terms
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary">Sign Up</button>
+            </form>
+            
+            <p style="margin-top: 20px; text-align: center; font-size: 13px;">
+                Already have an account? <a href="login.html" style="color: var(--accent-color); font-weight: 600;">Log in</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
