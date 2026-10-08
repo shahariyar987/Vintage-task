@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings - Vantage Tasks</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="profile_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="user-profile-mini">
+                <div class="avatar-circle">IA</div>
+                <h3>Injabin Alam</h3>
+            </div>
+            <ul class="nav-links">
+                <li><a href="dashboard_home.html"><i class="fas fa-columns"></i> Dashboard</a></li>
+                <li><a href="dashboard.html"><i class="fas fa-th-large"></i> Board View</a></li>
+                <li><a href="#" class="active"><i class="fas fa-user-cog"></i> Profile</a></li>
+                <li><a href="login.html" class="logout-link"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <header class="top-bar">
+                <h2>Account Settings</h2>
+                <div class="header-actions">
+                    <span>Tuesday, 20/06/2023</span>
+                </div>
+            </header>
+
+            <main class="profile-body-wrapper">
+                <div class="profile-container">
+                    <div class="profile-header">
+                        <div class="profile-avatar-wrapper">
+                            IA
+                            <div class="edit-avatar-btn">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="profile-title">
+                            <h2 style="font-size: 24px;">Injabin Alam</h2>
+                            <p style="opacity: 0.8; font-size: 14px;">injabin@example.com • Project Manager</p>
+                        </div>
+                    </div>
+
+                    <div class="profile-body">
+                        <form action="#">
+                            <h3 class="form-section-title">Personal Information</h3>
+                            <div class="profile-grid">
+                                <div class="profile-field">
+                                    <label>First Name</label>
+                                    <input type="text" value="Injabin" placeholder="First Name">
+                                </div>
+                                <div class="profile-field">
+                                    <label>Last Name</label>
+                                    <input type="text" value="Alam" placeholder="Last Name">
+                                </div>
+                                <div class="profile-field">
+                                    <label>Email Address</label>
+                                    <input type="email" value="injabin@example.com" disabled>
+                                </div>
+                                <div class="profile-field">
+                                    <label>Phone Number</label>
+                                    <input type="tel" value="+1 234 567 890" placeholder="Phone">
+                                </div>
+                            </div>
+
+                            <h3 class="form-section-title">Organization</h3>
+                            <div class="profile-grid">
+                                <div class="profile-field">
+                                    <label>Company Name</label>
+                                    <input type="text" value="Vantage Design Agency">
+                                </div>
+                                <div class="profile-field">
+                                    <label>Position</label>
+                                    <input type="text" value="Senior Project Manager">
+                                </div>
+                            </div>
+
+                            <div class="action-bar">
+                                <button type="button" class="btn-cancel">Discard Changes</button>
+                                <button type="submit" class="btn-save">Save Changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
